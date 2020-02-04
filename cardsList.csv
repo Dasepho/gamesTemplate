@@ -1,4 +1,5 @@
-Copies,CardName
-3,cardA
-2,cardB
-3,cardC
+Copies,CardName,otherField
+3,cardA,foo
+2,cardB,bar
+2,,
+7,cardD,
