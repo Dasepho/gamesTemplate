@@ -1,7 +1,13 @@
 
 FLAGS = --cropmarks #--outline
 
-allCards: miniCards pokerCards
+allCards: miniCards pokerCards euroCards bridgeCards circleCards dominoCards euroSquareCards microCards
+microCards: microCards.pdf
+euroSquareCards: euroSquareCards.pdf
+dominoCards: dominoCards.pdf
+circleCards: circleCards.pdf
+bridgeCards: bridgeCards.pdf
+euroCards: euroCards.pdf
 miniCards: miniCards.pdf
 pokerCards: pokerCards.pdf
 
