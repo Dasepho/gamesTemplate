@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Glabels-templates xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Dasepho" part="Bridge Cards" size="A4" description="2.25&quot;x3.5&quot; Bridge size cards">
+    <Label-rectangle id="0" width="88.9mm" height="57.2mm" round="4mm" x_waste="4.1mm" y_waste="1mm">
+      <Markup-margin size="3.2mm"/>
+      <Layout nx="2" ny="5" x0="12mm" y0="1.9mm" dx="97.1mm" dy="59.2mm"/>
+    </Label-rectangle>
+  </Template>
+</Glabels-templates>

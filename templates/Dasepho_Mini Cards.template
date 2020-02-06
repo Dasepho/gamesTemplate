@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Glabels-templates xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Dasepho" part="Mini Cards" size="A4" description="1.75&quot;x2.5&quot; cards, half a poker card">
+    <Label-rectangle id="0" width="63.5mm" height="44.5mm" round="4mm" x_waste="3.2mm" y_waste="2.5mm">
+      <Markup-margin size="3mm"/>
+      <Layout nx="3" ny="6" x0="3.3mm" y0="2.5mm" dx="69.9mm" dy="49.5mm"/>
+    </Label-rectangle>
+  </Template>
+</Glabels-templates>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Glabels-templates xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Dasepho" part="Circle Cards" size="A4" description="3.5&quot; Diameter Circle cards">
+    <Label-round id="0" radius="44.5mm" waste="4mm">
+      <Markup-margin size="3.2mm"/>
+      <Layout nx="2" ny="3" x0="11.8mm" y0="4.4mm" dx="97mm" dy="100mm"/>
+    </Label-round>
+  </Template>
+</Glabels-templates>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Glabels-templates xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Dasepho" part="Euro Square Cards" size="A4" description="70mmx70mm Square Euro Cards">
+    <Label-rectangle id="0" width="70mm" height="70mm" round="4mm" x_waste="0mm" y_waste="0mm">
+      <Markup-margin size="3.175mm"/>
+      <Layout nx="3" ny="4" x0="0mm" y0="8.5mm" dx="70mm" dy="70mm"/>
+    </Label-rectangle>
+  </Template>
+</Glabels-templates>

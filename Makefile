@@ -1,7 +1,7 @@
 
 .PHONY: clean allCards miniCards microCards euroCards euroSquareCards dominoCards circleCards bridgeCards pokerCards
 
-OUTLINE ?= 1
+OUTLINE ?= 0
 
 FLAGS = --cropmarks
 

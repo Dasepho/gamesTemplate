@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Glabels-templates xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Dasepho" part="Domino Cards" size="A4" description="1.75&quot;x3.5&quot; Domino cards. Width is double height">
+    <Label-rectangle id="0" width="88.9mm" height="44.5mm" round="4mm" x_waste="3.2mm" y_waste="1.7mm">
+      <Markup-margin size="3.175mm"/>
+      <Layout nx="2" ny="6" x0="12mm" y0="6.7mm" dx="95.3mm" dy="47.9mm"/>
+    </Label-rectangle>
+  </Template>
+</Glabels-templates>
