@@ -1,5 +1,13 @@
 
-FLAGS = --cropmarks --outline
+.PHONY: clean allCards miniCards microCards euroCards euroSquareCards dominoCards circleCards bridgeCards pokerCards
+
+OUTLINE ?= 1
+
+FLAGS = --cropmarks
+
+ifeq ($(OUTLINE),1)
+	FLAGS += --outline
+endif
 
 allCards: miniCards pokerCards euroCards bridgeCards circleCards dominoCards euroSquareCards microCards
 microCards: microCards.pdf
