@@ -22,7 +22,7 @@ pokerCards: pokerCards.pdf
 cardsListFull.csv: cardsList.csv cardsListGen.py
 	python3 cardsListGen.py
 
-%.pdf: %Gen.glabels cardsListFull.csv
+%.pdf: templates/%Gen.glabels cardsListFull.csv
 	glabels-3-batch -o $@ $< $(FLAGS)
 
 clean:
