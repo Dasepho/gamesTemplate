@@ -1,6 +1,8 @@
 
 .PHONY: clean allCards miniCards microCards euroCards euroSquareCards dominoCards circleCards bridgeCards pokerCards
 
+SOURCE ?= cardsList.csv
+
 OUTLINE ?= 0
 
 FLAGS = --cropmarks
@@ -19,8 +21,8 @@ euroCards: euroCards.pdf
 miniCards: miniCards.pdf
 pokerCards: pokerCards.pdf
 
-cardsListFull.csv: cardsList.csv cardsListGen.py
-	python3 cardsListGen.py
+cardsListFull.csv: $(SOURCE) cardsListGen.py
+	python3 cardsListGen.py -i $(SOURCE)
 
 %.pdf: templates/%Gen.glabels cardsListFull.csv
 	glabels-3-batch -o $@ $< $(FLAGS)
