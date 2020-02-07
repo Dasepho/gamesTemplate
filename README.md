@@ -26,4 +26,6 @@ Template repo for designing card games
 
 ------------
 ## Notes
+ - In gLabels3, the merge path is an absolute path, so upon first use, each ```______.glabels``` file will likely tell you that the merge file doesn't exist, since your filestructure doesn't match mine. You will have to open gLabels, then open each ```______.glabels``` file to manually update it. For this reason, I don't suggest using a copy of this repo for each project. Instead, store your project-specific files in their own directory, and copy them here when you're ready to generate output pdfs.
+    - I believe gLabels4 should fix this by implementing relative paths, so I'll look at that when it's stable.
  - gLabels will crash if you try and open a file that merges with ```cardsListFull.csv``` when it doesn't exist. It's easiest to run ```make``` so it is generated before editing a gLabels file
