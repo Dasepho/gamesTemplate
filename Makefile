@@ -5,7 +5,11 @@ SOURCE ?= cardsList.csv
 
 OUTLINE ?= 0
 
-FLAGS = --cropmarks
+CROPMARKS ?= 1
+
+ifeq ($(CROPMARKS),1)
+	FLAGS += --cropmarks
+endif
 
 ifeq ($(OUTLINE),1)
 	FLAGS += --outline

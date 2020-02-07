@@ -17,7 +17,7 @@ Template repo for designing card games
  - Edit ```cardsList.csv``` to specify the quantity of each card needed
    - If you have extra fields that are useful to merge add them to the end, leaving ```Copies``` and ```CardName``` alone.
    - It is possible to overwrite the default source list when running make using ```make SOURCE=inputFile```
- - If required, open ```pokerCardsGen.glabels``` or ```miniCardsGen.glabels``` and edit the design. They are in the ```/templates/``` directory.
+ - If required, open the ```____.glabels``` files and edit the design. They are in the ```/templates/``` directory.
  - Run ```make```
     - If you want standard 2.5"x3.5" Poker cards, run ```make pokerCards``` and you'll get 9 cards per sheet
     - If you want mini size (1.75"x2.5") cards run ```make miniCards``` and you'll get 18 cards per sheet
